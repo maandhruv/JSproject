@@ -235,7 +235,6 @@ header nav ul li a {
 }
 /* end: hero section styles */
 
-
 /* start: features section styles */
 #features .box {
   width: 31%;
@@ -265,7 +264,6 @@ header nav ul li a {
   vertical-align: middle;
 }
 /* end: features section styles */
-
 
 /* start: services section styles */
 #services {
@@ -765,4 +763,3 @@ footer small a {
   }
 }
 /* end: media queries */
-
