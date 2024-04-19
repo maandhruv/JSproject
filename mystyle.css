@@ -334,3 +334,435 @@ header nav ul li a {
 }
 /* end: trainers section styles */
 
+
+/* start: meal section styles */
+#meal{
+    background: url('https://img.freepik.com/premium-vector/gray-background-with-white-background-light-gray-background_664601-2402.jpg') top center no-repeat;
+    height:500px;
+    background-size: cover;
+}
+.container-diet {
+ 
+    height: 350px;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .item-diet {
+    height: 350px;
+    width: 30%;
+    border: 1px  #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+    background-color:#c0ced1;
+    position: sticky;
+    top: 0;
+    transition: 0.3s;
+
+  }
+  .item-diet:hover{
+    transform:scale(1.3);
+    background-color:#233EDE;
+    color:antiquewhite;
+  }
+
+  #veg{
+    color:white;
+    background-color: #233EDE;
+    height:30px;
+    width:70px;
+    border-radius: 5px;
+    border-color: black;
+  }
+  #nonveg{
+    color:white;
+    background-color: #233EDE;
+    height:30px;
+    width:80px;
+    border-radius: 5px;
+    border-color: black;
+  }
+  
+/* end: meal section styles */
+
+
+/* start: workout schedule section styles */
+
+#schedule{
+    height:570px;
+    background: #212122;
+    background-size: cover;
+    color:#fff;
+}
+#days{
+    background-color: #233EDE;
+    color: white;
+    width: 120px;
+    height: 120%;
+    padding: 10px;
+}
+
+.workout-section {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .workout-schedule {
+    margin-top: 10px;
+    padding: 20px;
+    display: none;
+    color:white;
+    transition: 0.3s;
+  }
+  .workout-schedule:hover{
+    transform:scale(1.1);
+  }
+  
+/* end: workout schedule section styles */
+
+
+/* start: footer section styles */
+footer {
+  background: url('foot.jpg') top center no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem;
+}
+
+.footer-container {
+  max-width: 625px;
+  margin: 0 auto;
+}
+
+#footer-logo {
+  display: inline-block;
+}
+
+footer nav {
+  margin: 2rem 0 6rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+footer .mailing-list {
+  position: relative;
+}
+
+footer input {
+  color: #fff;
+  height: 78px;
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  border: 2px solid #fff;
+  font-size: 13px;
+  font-style: italic;
+  padding-left: 2rem;
+}
+
+footer button {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  padding: 1.75rem 3rem;
+}
+
+footer ul.social-icons {
+  max-width: 400px;
+  margin: 4rem auto 3rem;
+}
+
+footer ul.social-icons li a {
+  font-size: 1rem;
+}
+
+footer img.bicep {
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+footer small {
+  color: #fff;
+  opacity: 0.8;
+  font-weight: 300;
+  margin: 0 0.5rem;
+}
+
+footer small a {
+  color: #fff;
+  text-decoration: underline;
+}
+::placeholder{
+    color:white;
+}
+/* end: footer section styles */
+
+/* start: search and embed video overlay styles */
+#search-container
+ {
+  background: #073B4C;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+
+
+
+#search-container-hide
+{
+  color: #fff;
+  font-size: 1.75rem;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+#search-container h3,
+.search-container-input {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: -50px auto 0;
+  max-width: 500px;
+}
+
+#search-container h3 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: -125px auto 0;
+}
+
+.search-container-input input {
+  width: 100%;
+  height: 58px;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding-left: 2rem;
+}
+
+.search-container-input button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+/* end: search and embed video overlay styles */
+
+/* start: media queries */
+@media (max-width: 992px) {
+  h2 {
+    font-size: 6rem;
+  }
+
+  header nav {
+    max-width: 775px;
+  }
+
+  .top-gym-logo {
+    margin: 0 1rem;
+  }
+
+  .upcoming-classes-box {
+    padding: 2rem 1.5rem 0.5rem;
+  }
+
+  .upcoming-classes-box h4 {
+    margin-bottom: 1rem;
+  }
+
+  .membership-cards-box .inner-container {
+    padding: 0.5rem 1.5rem 1.5rem;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .membership-cards-box h2 {
+    font-size: 3.5rem;
+  }
+
+  .personal-trainer-box {
+    padding: 2rem 1.5rem 1.5rem;
+  }
+
+  .personal-trainer-box p {
+    font-size: 0.85rem;
+  }
+
+  @media (min-width: 768px) {
+    header nav {
+      display: block !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 4rem;
+      margin-top: 2rem;
+    }
+
+    .flex {
+      display: block;
+    }
+
+    .flex .box {
+      margin: 0 auto;
+      width: 100% !important;
+      margin-top: 3rem;
+    }
+
+    .flex .box:first-child {
+      margin-top: 0;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.85);
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: static;
+    }
+    
+    #header-logo-mobile {
+      display: inline-block;
+    }
+
+    header nav {
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      display: none;
+    }
+
+    header nav ul.flex {
+      display: block;
+    }
+
+    header nav ul li {
+      margin: 1rem 0;
+    }
+
+    header nav ul li:last-child {
+      margin-bottom: 2rem;
+    }
+
+    header nav ul li a {
+      font-size: 1.5rem;
+    }
+
+    #search {
+      position: static;
+      font-size: 1.5rem;
+    }
+
+    #hamburger-menu {
+      display: block;
+    }
+
+    #header-logo {
+      display: none;
+    }
+
+    #features .box .feature-info-container {
+      padding: 0 1rem;
+    }
+
+    #schedule-services .flex {
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #schedule-services .flex > div.upcoming-classes-box,
+    #schedule-services .flex > div.membership-cards-box {
+      width: 48%;
+    }
+
+    #schedule-services .flex > div.personal-trainer-box {
+      width: 100%;
+      margin-top: 3rem;
+      background-size: cover;
+    }
+
+    .personal-trainer-box p {
+      font-size: 0.95rem;
+    }
+
+    .membership-cards-box .inner-container {
+      background-size: cover;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .video-frame-container {
+      top: 30%;
+    }
+
+    #schedule-services .flex > div {
+      width: 100% !important;
+      margin-top: 3rem;
+    }
+
+    #schedule-services .flex > div:first-child {
+      margin-top: 0;
+    }
+
+    .membership-cards-box .inner-container {
+      min-height: 500px;
+    }
+
+    footer ul li a {
+      font-size: 0.65rem;
+    }
+
+    footer .mailing-list {
+      margin: 0 0.5rem;
+    }
+
+    footer button {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .membership-cards-box .inner-container {
+      min-height: 400px;
+    }
+
+    footer ul {
+      flex-wrap: wrap;
+    }
+
+    footer nav ul li {
+      width: 33%;
+      margin-top: 1rem;
+    }
+  }
+}
+/* end: media queries */
+
