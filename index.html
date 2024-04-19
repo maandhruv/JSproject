@@ -194,4 +194,89 @@
     </div>
   </section>
 
+ <section id="meal">
+    <h1 align="center" style="font-size:40px;margin-bottom:30px;">diet plans</h1>
+    <input type="submit" id="veg" onclick="showVeg()" value="Veg">
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" id="nonveg" onclick="showNonVeg()" value="Non-Veg">
+ 
+  <div class="container-diet">
+    <div class="item-diet" id="breakfast"><h1 align="center" >breakfast</h1>
+        <ul id="list-1" style="float:left;padding:15px"></ul>
+    </div>
+      <div class="item-diet" id="lunch"><h1 align="center" >lunch</h1>
+        <ul id="list-2" style="float:left;padding:15px"></ul>
+    </div>
+      <div class="item-diet" id="dinner"><h1 align="center" >dinner</h1>
+        <ul id="list-3" style="float:left;padding:15px"></ul>
+    </div>
+  </div>
+  </section>
+
+ 
+<section id="schedule">
+    <div class="workout-section">
+        <h1 style="font-size:30px ;">Choose Your Workout Schedule<br></h1>
+        <label for="days">Select number of workout days:</label><br><br>
+        <select id="days">
+          <option value="3">3 Day split</option>
+          <option value="5">5 Day split</option>
+          <option value="6">6 Day split</option>
+        </select>
+        <div class="workout-schedule" id="workout-schedule">
+        </div>
+      </div>
+
+</section>
+
+
+  <footer>
+    <div class="footer-container">
+      <div id="footer-logo" class="top-gym-logo">
+        <a href="#">STAY FIT</a>
+      </div>
+      <br>
+      <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#features">About Us</a></li>
+            <li><a href="#services">Workout</a></li>
+            <li><a href="#trainers">Influencers</a></li>
+            <li><a href="#meal">Diet</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+        </ul>
+      </nav>
+      
+      <div class="mailing-list">
+        <input type="text" placeholder="YOUR EMAIL" />
+        <button>SIGN UP</button>
+      </div>
+
+      <ul class="social-icons">
+        <li><a href="https://github.com/maandhruv" target="_blank"><span class="fab fa-github fa-3x"></span></a></li>
+        <li><a href="https://www.linkedin.com/in/dhruv-maan-554944274/" target="_blank"><span class="fab fa-linkedin fa-3x"></span></a></li>
+        <li><a href="https://www.instagram.com/dhruvmaan._/"  target="_blank"><span class="fab fa-instagram fa-3x"></span></a></li>
+      </ul>
+
+      <img src="https://onclickwebdesign.com/wp-content/uploads/footer-icon.png" class="bicep" alt="Bicep flex icon" />
+
+      <small>
+        Copyright &copy;2024 All rights reserved.
+      </small>
+    </div>
+  </footer>
+
+  <div id="search-container">
+    <span id="search-container-hide" class="fa fa-times"></span>
+    <h3>Search</h3>
+    <div class="search-container-input">
+      <input type="text" name="search" placeholder="Search this site" />
+      <button>Search</button>
+    </div>
+  </div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
 
